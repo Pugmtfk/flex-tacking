@@ -1,0 +1,115 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "เพิ่มคำ",
+        "size": "32px",
+        "color": "#ffffff",
+        "weight": "bold",
+        "align": "center",
+        "offsetTop": "34px"
+      },
+      {
+        "type": "text",
+        "text": "(คำสั่งลัด)",
+        "size": "32px",
+        "color": "#ffffff",
+        "weight": "bold",
+        "offsetTop": "35px",
+        "offsetStart": "80px"
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1153916859498901514/Rectangle_364_2.png",
+        "position": "absolute",
+        "size": "200px",
+        "offsetStart": "150px"
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1153918561958498304/Group_6569_3.png",
+        "position": "absolute",
+        "size": "66px",
+        "offsetTop": "113px",
+        "offsetStart": "224px"
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1154266479148150814/Icon.png",
+        "position": "absolute",
+        "size": "42px",
+        "offsetStart": "203px",
+        "offsetTop": "135px"
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1154267802308464781/Rectangle_358_2.png",
+        "position": "absolute",
+        "size": "61px",
+        "offsetTop": "114px",
+        "offsetEnd": "249px"
+      }
+    ],
+    "background": {
+      "type": "linearGradient",
+      "angle": "270deg",
+      "startColor": "#4470F4",
+      "endColor": "#0C3AB9"
+    },
+    "height": "174px"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "กำหนดคำเฉพาะตัว",
+            "color": "#373737",
+            "size": "18px",
+            "weight": "bold",
+            "offsetBottom": "3px"
+          },
+          {
+            "type": "text",
+            "text": "เพื่อช่วยให้การค้นหาสินค้าง่ายขึ้น",
+            "color": "#373737",
+            "size": "18px",
+            "weight": "bold"
+          }
+        ],
+        "alignItems": "center"
+      }
+    ],
+    "paddingAll": "0px",
+    "alignItems": "center",
+    "height": "90px",
+    "paddingTop": "24px",
+    "paddingBottom": "8px"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "เพิ่มคำเลย",
+          "uri": "http://linecorp.com/"
+        },
+        "color": "#0057DD",
+        "style": "primary",
+        "height": "md"
+      }
+    ]
+  }
+}
